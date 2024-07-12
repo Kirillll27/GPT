@@ -148,6 +148,9 @@ section h2 {
   margin-bottom: 10px;
 }
 
+p {
+  color:  #00698f
+}
 /* Footer styles */
 
 footer {
@@ -158,5 +161,6 @@ footer {
 }
 
 footer p {
+    color:#fff ;
   margin-bottom: 0;
 }
