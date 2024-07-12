@@ -1,0 +1,162 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #00698f;
+}
+
+a {
+  text-decoration: none;
+  color: #00698f;
+}
+
+a:hover {
+  color: #00467f;
+}
+
+/* Header styles */
+
+header {
+  background-color: #00698f;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+}
+
+header nav a:hover {
+  color: #ccc;
+}
+
+/* Main content styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+section {
+  background-color: #fff;
+  padding: 2em;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+/* About section styles */
+
+#about {
+  background-image: url('school-building.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#about h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Teachers section styles */
+
+#teachers ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#teachers li {
+  margin-bottom: 20px;
+}
+
+#teachers img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* News section styles */
+
+#news ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#news li {
+  margin-bottom: 10px;
+}
+
+#news a {
+  color: #00698f;
+}
+
+#news a:hover {
+  color: #00467f;
+}
+
+/* Contacts section styles */
+
+#contacts {
+  background-color: #f7f7f7;
+  padding: 2em;
+}
+
+#contacts p {
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #00698f;
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+}
+
+footer p {
+  margin-bottom: 0;
+}
